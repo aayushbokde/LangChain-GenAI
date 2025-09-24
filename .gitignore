@@ -1,3 +1,15 @@
-# Environment variables
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environment
+venv/
 .env
-.env.*   # any other env files storing API keys
+*.env
+
+# Streamlit temp
+temp_dir/
+
+# OS files
+.DS_Store
+Thumbs.db
