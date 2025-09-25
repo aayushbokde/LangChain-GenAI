@@ -10,4 +10,4 @@ model = ChatGoogleGenerativeAI(
 
 result = model.invoke("what is the capital of Japan?, be a bit more specific and give answer in a sentence")
 
-print(result.content) 
+print(result.content)
