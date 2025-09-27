@@ -7,7 +7,7 @@ import os
 OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY")
 
 llm = ChatOpenAI(
-    model="gpt-3.5-turbo",
+    model="gpt-4o-mini",
     api_key=OPENROUTER_API_KEY,
     base_url="https://openrouter.ai/api/v1"
 )
